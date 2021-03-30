@@ -1,0 +1,24 @@
+{
+  "name": "monorepo-lerna-test",
+  "version": "1.0.0",
+  "description": "use lerna.js to do monorepo",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bugofbook/Monorepo-lerna-test.git"
+  },
+  "keywords": [
+    "monorepo",
+    "lerna",
+    "sideproject"
+  ],
+  "author": "bugofbook bugofbook@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Bugofbook/Monorepo-lerna-test/issues"
+  },
+  "homepage": "https://github.com/Bugofbook/Monorepo-lerna-test#readme"
+}
