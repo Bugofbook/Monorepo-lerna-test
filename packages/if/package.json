@@ -8,13 +8,13 @@
   "author": "BugofBook <bugofbook@gmail.com>",
   "homepage": "https://github.com/Bugofbook/Monorepo-lerna-test/tree/main/packages/if#readme",
   "license": "MIT",
-  "main": "lib/if.js",
+  "main": "src/if.js",
   "directories": {
-    "lib": "lib",
+    "lib": "src",
     "test": "__tests__"
   },
   "files": [
-    "lib"
+    "src"
   ],
   "publishConfig": {
     "access": "public"
