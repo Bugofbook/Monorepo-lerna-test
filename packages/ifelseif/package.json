@@ -1,0 +1,27 @@
+{
+  "name": "@common/ifelseif",
+  "version": "1.0.0",
+  "description": "ifelseif FP",
+  "author": "BugofBook <bugofbook@gmail.com>",
+  "homepage": "https://github.com/Bugofbook/Monorepo-lerna-test/tree/main/packages/ifelseif#readme",
+  "license": "MIT",
+  "main": "src/ifelseif.js",
+  "directories": {
+    "lib": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bugofbook/Monorepo-lerna-test.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/Bugofbook/Monorepo-lerna-test/issues"
+  },
+  "dependencies": {}
+}
