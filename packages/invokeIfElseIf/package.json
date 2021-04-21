@@ -1,14 +1,11 @@
 {
-  "name": "@common/if",
+  "name": "@common/invokeifelse",
   "version": "1.0.0",
-  "description": "if",
-  "keywords": [
-    "if"
-  ],
+  "description": "ifelseif FP",
   "author": "BugofBook <bugofbook@gmail.com>",
-  "homepage": "https://github.com/Bugofbook/Monorepo-lerna-test/tree/main/packages/if#readme",
+  "homepage": "https://github.com/Bugofbook/Monorepo-lerna-test/tree/main/packages/ifelseif#readme",
   "license": "MIT",
-  "main": "src/if.js",
+  "main": "src/invokeIfElseIf.js",
   "directories": {
     "lib": "src",
     "test": "__tests__"
@@ -16,9 +13,6 @@
   "files": [
     "src"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Bugofbook/Monorepo-lerna-test.git"
@@ -28,5 +22,6 @@
   },
   "bugs": {
     "url": "https://github.com/Bugofbook/Monorepo-lerna-test/issues"
-  }
+  },
+  "dependencies": {}
 }

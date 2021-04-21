@@ -1,6 +1,6 @@
 'use strict';
 
-const iffunction = require('../src/if');
+const invokeIf = require('../src/invokeIf');
 
 function fnCondition(arg) {
     return arg >= 18
@@ -15,7 +15,7 @@ function fnFalse(arg) {
 }
 
 describe('@common/if', () => {
-    const newFunction = iffunction(fnCondition, fnTrue, fnFalse)
+    const newFunction = invokeIf(fnCondition, fnTrue, fnFalse)
     it('needs tests1', () => {
         expect(newFunction(10)).toBe('age is 10, under 18')
     });

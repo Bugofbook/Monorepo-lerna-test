@@ -1,16 +1,16 @@
 {
-  "name": "@common/common",
+  "name": "@common/invokecompose",
   "version": "1.0.0",
   "private": true,
-  "description": "common",
+  "description": "invokeCompose",
   "keywords": [
-    "common"
+    "invokeCompose"
   ],
   "author": "BugofBook <bugofbook@gmail.com>",
   "homepage": "https://github.com/Bugofbook/Monorepo-lerna-test/tree/main/packages/common#readme",
   "license": "MIT",
-  "main": "src/common.js",
-  "module": "src/common.module.js",
+  "main": "src/invokeCompose.js",
+  "module": "src/invokeCompose.js",
   "directories": {
     "lib": "src",
     "test": "test"

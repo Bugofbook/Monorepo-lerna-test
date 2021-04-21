@@ -1,6 +1,6 @@
 'use strict';
 
-const ifelseif = require('../src/ifelseif');
+const invokeIfElseIf = require('../src/invokeIfElseIf');
 function fbig1000 (e = 0) {
     return e > 1000;
 }
@@ -23,14 +23,14 @@ function ffa ( e = 10) {
     return `${e} is small than 10`
 }
 
-describe('ifelseif', () => {
+describe('invokeIfElseIf', () => {
     const ConditionFn = [
         [fbig1000, ftr1000],
         [fbig100, ftr100],
         [fbig10, ftr10],
         [() => true, ffa]
     ]
-    const newFunction = ifelseif(...ConditionFn);
+    const newFunction = invokeIfElseIf(...ConditionFn);
     it('needs tests1', () => {
         expect(newFunction(1001)).toBe('1001 is big than 1000')
     });
