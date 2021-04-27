@@ -1,0 +1,29 @@
+{
+  "name": "@common/invokefor",
+  "version": "1.0.0",
+  "description": "invoke for flow",
+  "keywords": [
+    "functional"
+  ],
+  "author": "Gary <gary.lin@hwaotech.com>",
+  "homepage": "https://github.com/Bugofbook/Monorepo-lerna-test/tree/main/packages/invokefor#readme",
+  "license": "MIT",
+  "main": "src/invokefor.js",
+  "directories": {
+    "lib": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bugofbook/Monorepo-lerna-test.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/Bugofbook/Monorepo-lerna-test/issues"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "invokewhile",
+  "version": "1.0.0",
+  "description": "invoke While flow",
+  "keywords": [
+    "functional",
+    "while"
+  ],
+  "author": "Gary <bugofbook@gmail.com>",
+  "homepage": "https://github.com/Bugofbook/Monorepo-lerna-test/tree/main/packages/invokewhile#readme",
+  "license": "MIT",
+  "main": "src/invokewhile.js",
+  "directories": {
+    "lib": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bugofbook/Monorepo-lerna-test.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/Bugofbook/Monorepo-lerna-test/issues"
+  }
+}

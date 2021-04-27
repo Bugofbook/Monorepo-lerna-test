@@ -1,0 +1,48 @@
+{
+  "name": "@common/invokecompose",
+  "version": "1.0.0",
+  "private": true,
+  "description": "invokeCompose",
+  "keywords": [
+    "invokeCompose"
+  ],
+  "author": "BugofBook <bugofbook@gmail.com>",
+  "homepage": "https://github.com/Bugofbook/Monorepo-lerna-test/tree/main/packages/common#readme",
+  "license": "MIT",
+  "main": "src/invokeCompose.js",
+  "module": "src/invokeCompose.js",
+  "directories": {
+    "lib": "src",
+    "test": "test"
+  },
+  "files": [
+    "src"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "tag": "1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bugofbook/Monorepo-lerna-test.git"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "bugs": {
+    "url": "https://github.com/Bugofbook/Monorepo-lerna-test/issues"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.14",
+    "@babel/core": "^7.13.15",
+    "@babel/preset-env": "^7.13.15",
+    "babel-jest": "^26.6.3",
+    "eslint": "^7.24.0",
+    "jest": "^26.6.3"
+  }
+}
