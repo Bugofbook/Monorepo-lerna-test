@@ -1,4 +1,4 @@
-function invokeCompose(...fns) {
+export default function invokeCompose(...fns) {
     if (fns.length === 0 ) {
         return (arg) => arg;
     }
@@ -10,5 +10,3 @@ function invokeCompose(...fns) {
         return fns.reduce((pre, fn) => fn(pre), arg)
     }
 }
-
-module.exports = invokeCompose

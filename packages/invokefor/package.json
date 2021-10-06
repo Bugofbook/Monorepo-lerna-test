@@ -1,35 +1,50 @@
 {
-  "name": "@common/invokefor",
-  "version": "1.0.0",
-  "description": "invoke for flow",
-  "keywords": [
-    "functional"
-  ],
-  "author": "Gary <gary.lin@hwaotech.com>",
-  "homepage": "https://github.com/Bugofbook/Monorepo-lerna-test/tree/main/packages/invokefor#readme",
-  "license": "MIT",
-  "main": "src/invokefor.js",
-  "directories": {
-    "lib": "src",
-    "test": "__tests__"
-  },
-  "files": [
-    "src"
-  ],
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@Bugofbook",
-    "access": "public",
-    "tag": "1.0.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Bugofbook/Monorepo-lerna-test.git",
-    "directory": "packages/invokefor"
-  },
+	"name": "@common/invokefor",
+	"version": "1.0.0",
+	"private": true,
+	"description": "invoke for flow",
+	"keywords": [
+		"functional"
+	],
+	"author": "Gary <gary.lin@hwaotech.com>",
+	"homepage": "https://github.com/Bugofbook/Monorepo-lerna-test/tree/main/packages/invokefor#readme",
+	"license": "MIT",
+	"main": "src/invokefor.js",
+	"module": "src/invokefor.js",
+	"directories": {
+		"lib": "src",
+		"test": "__tests__"
+	},
+	"files": [
+		"src"
+	],
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com/@Bugofbook",
+		"access": "public",
+		"tag": "1.0.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Bugofbook/Monorepo-lerna-test.git",
+		"directory": "packages/invokefor"
+	},
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "jest"
   },
-  "bugs": {
-    "url": "https://github.com/Bugofbook/Monorepo-lerna-test/issues"
-  }
+	"bugs": {
+		"url": "https://github.com/Bugofbook/Monorepo-lerna-test/issues"
+	},
+	"jest": {
+		"transform": {
+			"^.+\\.[t|j]sx?$": "babel-jest"
+		}
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.13.14",
+		"@babel/core": "^7.13.15",
+		"@babel/preset-env": "^7.13.15",
+		"babel-jest": "^26.6.3",
+		"eslint": "^7.24.0",
+		"jest": "^26.6.3"
+	}
 }

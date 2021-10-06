@@ -1,8 +1,4 @@
-// import aaa from "../src/index";
-
-// const aaa =require('../src/index');
-
-const invokeCompose = require('../src/common')
+import { invokeCompose } from "../src/index.js";
 
 function add1 (num = 0) {
     return num + 1;
