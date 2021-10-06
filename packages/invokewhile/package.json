@@ -1,5 +1,5 @@
 {
-  "name": "invokewhile",
+  "name": "@common/invokewhile",
   "version": "1.0.0",
   "description": "invoke While flow",
   "keywords": [
@@ -17,9 +17,15 @@
   "files": [
     "src"
   ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@Bugofbook",
+    "access": "public",
+    "tag": "1.0.0"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Bugofbook/Monorepo-lerna-test.git"
+    "url": "git+https://github.com/Bugofbook/Monorepo-lerna-test.git",
+    "directory": "packages/invokewhile"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
